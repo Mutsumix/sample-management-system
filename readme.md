@@ -17,7 +17,7 @@
     ```php artisan key:generate```
 5.  データベースを作成  
     ```php artisan migrate```
-6.  初期データの生成
+6.  初期データの生成  
     ```php artisan db:seed```
 7.  コンフィグをリセット  
     ```php artisan config:clear```
