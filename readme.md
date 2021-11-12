@@ -7,9 +7,8 @@
 
 ## 開発環境構築の手順
 0.  xampp もしくは wamp がインストールされている前提
-1.	bitbucketの管理者にアクセス権を付与してもらう  
-    リポジトリをクローン    
-    ```git clone https://sysmacs@bitbucket.org/sysmacs/smc-ledger.git```
+1.	リポジトリをクローン    
+    ```git clone https://github.com/Mutsumix/sample-management-system.git```
 2.	Composer をインストール  
     ```composer install```
 3.	.env のDB設定を自分の環境のものに変更する  
@@ -31,11 +30,8 @@
     Email: admin@sysmac.co.jp  
     Password: password 
 
-## 本番環境
-https://master.sysmac.co.jp/   
-プッシュすると自動的にソースに反映されます
 ### このドキュメントについて
-- 最終更新日：2020/10/28
+- 最終更新日：2021/11/12
 - 更新者：梶原  
 
 ![スクショ](./screenshot/ledger.png) 
